@@ -1,0 +1,22 @@
+{
+  "name": "token-rotator",
+  "version": "1.0.0",
+  "description": "Local OpenAI-compatible API key rotator and failover proxy",
+  "main": "proxy.py",
+  "scripts": {
+    "start": "python proxy.py",
+    "opencode": "opencode -m rotator/default-model"
+  },
+  "dependencies": {
+    "opencode-windows-x64": "^1.19.0"
+  },
+  "keywords": [
+    "openai",
+    "api-proxy",
+    "key-rotator",
+    "failover",
+    "opencode",
+    "llm"
+  ],
+  "license": "MIT"
+}

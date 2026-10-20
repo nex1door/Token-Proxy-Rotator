@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "rotator/default-model",
+  "provider": {
+    "rotator": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "TokenRotator Proxy",
+      "options": {
+        "baseURL": "http://127.0.0.1:8000/v1",
+        "apiKey": "unused"
+      },
+      "models": {
+        "default-model": { "name": "default-model" },
+        "gpt-4o": { "name": "gpt-4o" },
+        "claude-3-5-sonnet": { "name": "claude-3-5-sonnet" }
+      }
+    },
+    "custom-upstream": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Direct Upstream Provider (Example)",
+      "options": {
+        "baseURL": "https://api.your-provider.com/v1",
+        "apiKey": "YOUR_API_KEY_HERE"
+      },
+      "models": {
+        "default-model": { "name": "default-model" }
+      }
+    }
+  }
+}

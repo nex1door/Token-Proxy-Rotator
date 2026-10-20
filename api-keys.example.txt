@@ -1,0 +1,13 @@
+# Вставьте сюда ваши API-ключи любого OpenAI-совместимого провайдера
+# По одному ключу на строку, без кавычек и запятых.
+# Строки, начинающиеся с #, игнорируются.
+# 
+# Инструкция:
+# 1. Скопируйте этот файл в api-keys.txt:
+#    Windows: copy api-keys.example.txt api-keys.txt
+#    Linux/macOS: cp api-keys.example.txt api-keys.txt
+# 2. Вставьте свои реальные ключи ниже:
+
+sk-example-key-1
+sk-example-key-2
+sk-example-key-3
